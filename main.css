@@ -1,0 +1,285 @@
+nav ul {
+    margin: 0;
+}
+body {
+        background-image: url('images/cover.jpeg');
+}
+
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    height: 8%;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px 30px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+
+    width: 100%;
+    background: white;
+    height: 10%;
+}
+
+.headerBack {
+    background-image: url('../images/cover.jpeg');
+    background-position: center center;
+    margin: 0 50px 35px 50px;
+    height: 580px;
+}
+
+.bookBack {
+    background-image: url('../images/books.jpeg');
+    background-position: center center;
+    margin: 0 50px 35px 50px;
+    height: 580px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: avenir;
+    font-weight: 300;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+h3 {
+    font-family: helvetica;
+    color: white;
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 580px;
+    letter-spacing: 22px;
+}
+
+.bookBack h3 {
+    font-family: helvetica;
+    color: white;
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 580px;
+    letter-spacing: 22px;
+}
+
+h4 {
+    text-align: center;  
+    font-family: avenir;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.about {
+    margin: 0 50px 35px 50px;
+    height: 580px;
+    overflow: hidden;
+}
+
+.aboutLeft {
+    float: left;
+    size: 100%;
+    overflow: hidden;
+    height: 580px;
+}
+
+.aboutRight {
+    float: right;
+    height: 580px;
+    width: 385px;
+}
+
+.aboutRight h3{
+    position: absolute;
+    right: 120px;
+    top: -100px;
+    color: black;
+    font-size: 190%;
+    letter-spacing: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.aboutLeft img{
+    height: 100%;
+}
+
+.aboutUs {
+    float: right;
+    font-family: avenir;
+    color: black;
+    position: absolute;
+    top: 230px;
+    right: 102px;
+    text-align: center;
+    width: 310px;
+}
+
+.search {
+    overflow: hidden;
+    margin: 0 50px 0 50px;
+    height: 580px;
+    background-image: url('../images/search.jpeg');
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+h1 {
+    font-family: helvetica;
+    color: white;
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 100px;
+    right: 490px;
+}
+
+.search img {
+    width: 100%;
+}
+
+#searchField {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+}
+
+#searchField li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding-right: 10px;
+}
+
+input {
+    font-family: avenir;
+    font-size: 98%;
+    text-align: center;
+    height: 50px;
+    border: 0px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+}
+
+h5 {
+    font-family: helvetica;
+    color: white;
+    font-size: 130%;
+    letter-spacing: 5px;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.bookList {
+    position: absolute;
+    top: 90px;
+    right: 32.5%;
+    color: white;
+}
+
+.bookList li {
+    list-style: none;
+}
+
+.contactBack {
+    background-image: url('../images/contact.jpg');
+    margin: 0 50px 35px 50px;
+    height: 580px;   
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+
+.container {
+    padding: 20px;
+    position: absolute;
+    left: 415px;
+    width: 360px;
+    font-family: avenir;
+    top: 130px;
+}
+
+h5 {
+    padding: 0px;
+}
+
+.containerSearch {
+    padding: 20px;
+    position: absolute;
+    left: 415px;
+    width: 360px;
+    font-family: avenir;
+    top: 160px;
+}
+
+.active {
+    color: blue;
+}
+
+tr, td a {
+    color: white;
+    font-family: helvetica;
+}
+
+.ner {
+    position: absolute;
+    top: 200px;
+}
+
+.table {
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+}
